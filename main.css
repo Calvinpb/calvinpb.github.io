@@ -57,5 +57,17 @@ p {
 .col-3 {
 	text-align: center;
 	background-color: #e6f3ff;
-	height: 400px;
+	height: 600px;
+	margin-top: -20px;
+}
+w3-input {
+	text-align: center;
+}
+form {
+	margin-top: 100px;
+	height: auto;
+	text-align: center;
+}
+.center {
+	height: 8%;
 }
