@@ -60,6 +60,11 @@ p {
 	height: 600px;
 	margin-top: -20px;
 }
+.col-4 {
+	background-color: #f4c03e;
+	height: 600px;
+	margin-top: -20px;
+}
 w3-input {
 	text-align: center;
 }
@@ -70,4 +75,34 @@ form {
 }
 .center {
 	height: 8%;
+}
+.contact {
+	text-align: center;
+}
+.footer {
+	background-color: #333333;
+	margin-top: px;
+}
+.ft {
+	color: white;
+	font-style: oblique;
+	font-family: serif;
+	margin-left: 30px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    width: 30px;
+    height: 30px;
+   	margin-left: auto;
+   	margin-right: auto;   	
+    padding-top: 8px;
+}
+.btn {
+	margin-left: 20px;
+	display: #;
 }
