@@ -10,7 +10,9 @@ html {
 	padding: 10px;
 	text-transform: uppercase;
 	}
-
+body {
+	background-color: #e6f3ff;
+}
 }
 .container {
 	width: 750px;
@@ -27,9 +29,13 @@ html {
 h1 {
 	color: #fff;
 }
+h2 {
+	font-style: Oblique;
+}
 p {
 	color: #;
 	font: Arial sans-serif;
+	font-size: 20px;
 }
 
 .parent {
@@ -45,8 +51,8 @@ p {
 .col-1 {
 	text-align: center;
 	height: 600px;
-	background-image: url("pictures/mountain_hike.jpg");
 	margin-top: -20px;
+	background-color: #e6f3ff;
 }
 .col-2 {
 	text-align: center;
@@ -105,4 +111,9 @@ form {
 .btn {
 	margin-left: 20px;
 	display: #;
+}
+div img {
+	width: 35%;
+	height: 35%;
+	opacity: 0.9;
 }
