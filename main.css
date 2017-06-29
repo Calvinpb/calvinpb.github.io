@@ -92,6 +92,7 @@ form {
 .ft {
 	color: white;
 	font-style: oblique;
+	font-size: 15px;
 	font-family: serif;
 	margin-left: 30px;
 	margin-top: 5px;
@@ -116,4 +117,36 @@ div img {
 	width: 35%;
 	height: 35%;
 	opacity: 0.9;
+
+}
+input::placeholder {
+	padding-left: 10px;
+	color: #666666;
+}
+.fin {
+	text-align: center;
+	font-size: 15px;
+}
+.fin:hover {
+	background-color: #fff;
+}
+.S-1p {
+	display: inline;
+	display: block;
+	text-align: right;
+	margin-right: 100px;
+	
+}
+.hike {
+	opacity: 0.8;
+	margin-left: -40%;
+	display: inline-block;
+	border-radius: 25px;
+}
+.nav-dev {
+	float: right;
+	display: inline-block;
+	margin-right: 10%;
+	margin-left: 50%;
+	margin-top: -270px;
 }
