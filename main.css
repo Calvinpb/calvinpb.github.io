@@ -34,7 +34,7 @@ p {
 	background-image: url("pictures/night_sky_rocks.jpg");
 	background-size: 100%;
 	background-position: center;
-	opacity: 0.8;
+	opacity: 0.7;
 }
 .col-1 {
 	text-align: center;
@@ -129,4 +129,26 @@ input::placeholder {
 .facebook {
 	margin-left: 10%;
 	margin-right: 90%;
+}
+#nav {
+	height: 100px;
+}
+.navbar {
+	background-color: #666666;
+	color: #666666;
+	opacity: 0.7;
+
+}
+.navbar-brand {
+	margin-left: 200px;
+	color: white;
+}
+.navbar-brand:Hover {
+	background-color: #f0ffff;
+}
+a {
+	color: white;
+}
+.container-fluid {
+	height: 20px;
 }
