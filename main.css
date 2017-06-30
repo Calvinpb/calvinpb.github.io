@@ -9,22 +9,12 @@ html {
 	background-color: #666;
 	padding: 10px;
 	text-transform: uppercase;
-	}
+}
 body {
 	background-color: #e6f3ff;
 }
-}
-.container {
-	width: 750px;
-	height: 65px;
-
-}
 .img-responsive {
 	opacity: 0.8;
-}
-#frost_mountain {
-	background: url(pictures/frost_mountain.jpg)
-
 }
 h1 {
 	color: #fff;
@@ -33,11 +23,9 @@ h2 {
 	font-style: Oblique;
 }
 p {
-	color: #;
 	font: Arial sans-serif;
 	font-size: 20px;
 }
-
 .parent {
 	width: 100%;
 	height: 100%;
@@ -97,9 +85,7 @@ form {
 	margin-left: 30px;
 	margin-top: 5px;
 	margin-bottom: 5px;
-
 }
-
 .fa-facebook {
     background: #3B5998;
     color: white;
@@ -110,14 +96,14 @@ form {
     padding-top: 8px;
 }
 .btn {
-	margin-left: 20px;
-	display: #;
+	margin-right: 50%;
+	text-align: center;
+	margin-left: 50%;
 }
 div img {
 	width: 35%;
 	height: 35%;
 	opacity: 0.9;
-
 }
 input::placeholder {
 	padding-left: 10px;
@@ -132,21 +118,15 @@ input::placeholder {
 }
 .S-1p {
 	display: inline;
-	display: block;
 	text-align: right;
-	margin-right: 100px;
-	
+	margin-right: 100px;	
 }
 .hike {
-	opacity: 0.8;
-	margin-left: -40%;
+	opacity: 0.8;	
 	display: inline-block;
 	border-radius: 25px;
 }
-.nav-dev {
-	float: right;
-	display: inline-block;
-	margin-right: 10%;
-	margin-left: 50%;
-	margin-top: -270px;
+.facebook {
+	margin-left: 10%;
+	margin-right: 90%;
 }
