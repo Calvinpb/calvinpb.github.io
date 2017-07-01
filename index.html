@@ -14,28 +14,30 @@
       		<a class="navbar-brand" href="">voss</a>
     	</div>
     		<ul class="nav navbar-nav">
-				<li class="active"><a href="#"></a></li>
-				
-				<li><a href="#" class="dropdown" data-toggle="dropdown">Info</a>
-					<ul class="dropdown-menu">
-						<li href="#">By Victor Pinacue</li>
-					</ul>
-				</li>
-				<script> $('ul.nav li.dropdown').hover(function() {
-  				$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
-				}, function() {
-  				$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
-				});</script>
+				<li class="active"><a href="#"></a></li>				
+				<li><div class="dropdown">
+  					<button class="dropbtn">Dropdown</button>
+  						<div class="dropdown-content">
+							<div id="iefix">
+							<ul>
+								<li><a href="#">By Victor Pinacue</a></li>
+								<li><a href="https://www.facebook.com/victor.pinacuebibby">Facebook</a></li>
+								<li><a href="https://github.com/Calvinpb">Github</a></li>
+								<li><a href="https://codepen.io/victorpb/">Codepen</a></li>
+							</ul>
+							</div>
+						</div>
+					</div>				
+				</li>			
 				<li><a href="#">Contact</a></li>
     		</ul>
     	<ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
       <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
     </ul>
   </div>
 </nav>
 <div class="container">
-	<h3 id="header">voss development</h3>
+<h3 id="header">voss development</h3>
 </div>
 <br>
 <div class="w3-cell-row">
