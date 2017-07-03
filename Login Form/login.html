@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Login Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/main-form.css">
+        <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,500" rel="stylesheet" type="text/css">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="js/jquery-1.8.2.min.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <form id="login-form" class="login-form" name="form1" method="post" action="index.php" novalidate="novalidate">
+            <input type="hidden" name="is_login" value="1">
+                <div class="h1">Login Form</div>
+                <div id="form-content">
+                    <div class="group active">
+                        <label for="email">Email</label>
+                    </div>
+                    <div>
+                        <input id="email" name="email" class="form-control required" type="email" placeholder="Email">
+                    </div>
+                    <div class="group">
+                        <label for="name">Password</label>
+                    </div>
+                    <div>
+                        <input id="password" name="password" class="form-control required" type="password" placeholder="password">
+                    </div>
+                    <em>
+                        <label class="err" for="password" gnerated="true" style="display: block;">Wrong email or password.</label>
+                    </em>
+                    <div class="group-submit">
+                        <label class="empty"></label>
+                    </div class="button">
+                        <label name="submit" type="submit" value="Submit">
+                            <button href="#">Push It Real good</button>
+                    </div>
+                </div>
+            </div>
+            <div id="form-hiding" class="hide">
+                <i class="fa fa-circle-o-notch fa-spin"></i>
+            </div>
+        </form>
+    </body>
+</html>
