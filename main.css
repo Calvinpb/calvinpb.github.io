@@ -11,6 +11,38 @@ html {
 	text-transform: uppercase;
 	border-radius: 0px;
 }
+#header-H {
+	
+}
+
+#container-H {
+	display: inline-block;
+	
+}
+.nav-H {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	display: block;
+	background-color: #666;
+	align-items: inline;
+	list-style: none;
+	color: white;
+}
+.li-3 :hover {
+	background-color: white;
+	padding: 15px;
+}
+.nav-H li {
+	display: inline;
+}
+.li-2 {
+	text-align: center;
+	position: center;
+	margin-left: 10%;
+}
+.li-3 {
+	margin-left: 75%;
+}
 body {
 	background-color: #e6f3ff;
 }
